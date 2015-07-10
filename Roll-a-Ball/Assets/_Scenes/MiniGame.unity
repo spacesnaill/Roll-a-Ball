@@ -97,7 +97,9 @@ GameObject:
   - 4: {fileID: 650323202}
   - 33: {fileID: 650323201}
   - 135: {fileID: 650323200}
+  - 54: {fileID: 650323203}
   - 23: {fileID: 650323199}
+  - 114: {fileID: 650323204}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -160,6 +162,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!54 &650323203
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 650323198}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &650323204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 650323198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f4a4f7a78b0554dae78674e301081c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &849855370
 GameObject:
   m_ObjectHideFlags: 0
